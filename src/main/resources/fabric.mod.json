@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "foodlimit",
+  "version": "${version}",
+  "name": "Food Limit",
+  "description": "Solo puedes comer o beber 10 cosas al dia. Duerme (y que pase la noche) para recargar.",
+  "authors": ["Tu nombre"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.foodlimit.FoodLimit"]
+  },
+  "mixins": ["foodlimit.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
